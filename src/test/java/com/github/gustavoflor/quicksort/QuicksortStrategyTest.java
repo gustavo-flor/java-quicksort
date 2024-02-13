@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-class QuicksortTest {
+class QuicksortStrategyTest {
     @ParameterizedTest
     @MethodSource("getPartitionStrategies")
     @DisplayName("""
